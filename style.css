@@ -1,0 +1,54 @@
+body * {
+  /* background-color: rgba(44, 44, 44, 0.3); */
+  /* display: flex; */
+}
+#titleWrap {
+  color: hsl(243, 69%, 20%);
+  text-align: center;
+}
+#questionCountWrap {
+  color: hsl(243, 69%, 20%);
+  text-align: center;
+  padding: 20px;
+}
+#form {
+  text-align: center;
+}
+.submitButton {
+  width: 40%;
+  height: 50px;
+  outline: 0;
+  text-align: center;
+  cursor: pointer;
+}
+#descForm {
+  color: hsl(243, 69%, 20%);
+  width: 500px;
+  margin: auto;
+}
+/* ------------------------------- */
+.pushUpBtn {
+  padding: 12px 24px;
+  background-color: hsl(222, 100%, 95%);
+  color: hsl(243, 80%, 62%);
+  border-radius: 6px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease,
+    background-color 0.25s ease;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.pushUpBtn:hover {
+  transform: translate3d(0px, -1px, 0px);
+  background-color: hsl(222, 100%, 92%);
+  box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* -------------------------- */
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  border-width: 0;
+  border-style: solid;
+  border-color: #d2d6dc;
+}
